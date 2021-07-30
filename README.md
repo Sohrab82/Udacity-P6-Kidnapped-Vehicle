@@ -26,7 +26,7 @@ Alternatively some scripts have been included to streamline this process, these 
 2. ./build.sh
 3. ./run.sh
 
-## Code Outline
+## Files
 
 * `main.cpp`: contains communication to the simulator, setting up the particle filter, and calling predict/update methods.
 * `particle.cpp`: defines class ´Particle´ which has defines a Particle, initializes and moves it, and updates observations of the particle based on the map, and finally calculates the `weight` for that particle.

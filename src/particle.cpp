@@ -153,5 +153,5 @@ void Particle::calc_weight(const Map &map, double std_landmark_x, double std_lan
         //           << map.landmark_list[match].x_f << " " << map.landmark_list[match].y_f << " " << p << std::endl;
         weight_ *= p;
     }
-    std::cout << weight_ << std::endl;
+    // std::cout << weight_ << std::endl;
 }

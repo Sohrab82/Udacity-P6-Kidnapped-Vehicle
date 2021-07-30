@@ -142,7 +142,6 @@ int main()
                                 }
 
                                 std::cout << "highest w " << highest_weight << std::endl;
-                                std::cout << "num_particles " << num_particles << std::endl;
                                 std::cout << "average w " << weight_sum / num_particles << std::endl;
 
                                 json msgJson;
@@ -150,7 +149,7 @@ int main()
                                 msgJson["best_particle_y"] = best_particle.y_;
                                 msgJson["best_particle_theta"] = best_particle.theta_;
 
-                                std::cout << "best: " << best_particle.x_ << " " << best_particle.y_ << " " << best_particle.theta_ << std::endl;
+                                // std::cout << "best: " << best_particle.x_ << " " << best_particle.y_ << " " << best_particle.theta_ << std::endl;
 
                                 // Optional message data used for debugging particle's sensing
                                 //   and associations
